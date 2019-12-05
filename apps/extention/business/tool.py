@@ -13,8 +13,9 @@ from datetime import datetime
 import requests
 from flask import request, current_app
 
-from library.oss import oss_upload_monkey_package_picture
-from public_config import TCLOUD_FILE_TEMP_PATH
+from library.oss import nginx_upload_monkey_package_picture
+from public_config import TCLOUD_FILE_TEMP_PATH,TCLOUD_NGINX_IMG_PATH
+
 
 
 class ToolBusiness(object):
@@ -68,7 +69,7 @@ class ToolBusiness(object):
 
             apk_info = {}
 
-            cmd = '/usr/local/bin/aapt dump badging {}'.format(download_apk_name)
+            cmd = '/usr/local/aapt/aapt dump badging {}'.format(download_apk_name)
 
             command_process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
@@ -96,17 +97,18 @@ class ToolBusiness(object):
                 icon_binary = zip.read(apk_info['icon'])
                 time_now = datetime.now().strftime('%Y%m%d.%H%M%S')
                 picture = f'monkey-{time_now}.png'
-                dir_path = f'{TCLOUD_FILE_TEMP_PATH}/monkey'
 
-                if not os.path.exists(TCLOUD_FILE_TEMP_PATH):
-                    os.mkdir(TCLOUD_FILE_TEMP_PATH)
+                if not os.path.exists(TCLOUD_NGINX_IMG_PATH):
+                    os.mkdir(TCLOUD_NGINX_IMG_PATH)
 
-                if not os.path.exists(dir_path):
-                    os.mkdir(dir_path)
-                with open(f'{dir_path}/{picture}', 'wb') as f:
+                dir_path = f'{TCLOUD_NGINX_IMG_PATH}/{picture}'
+
+                with open(dir_path, 'wb') as f:
                     f.write(icon_binary)
+                    f.flush()
+                    f.close()
 
-                apk_info['icon'] = oss_upload_monkey_package_picture(dir_path, picture)
+                apk_info['icon'] = nginx_upload_monkey_package_picture(picture)
             except Exception as e:
                 current_app.logger.warning(e)
                 current_app.logger.warning(traceback.format_exc())
