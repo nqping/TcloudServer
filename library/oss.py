@@ -3,7 +3,7 @@ import os
 import oss2
 
 from public_config import (
-    OSSAccessKeyId, OSSAccessKeySecret, OSS_ENDPOINT, OSS_BUCTET_NAME, OSSHost,
+    OSSAccessKeyId, OSSAccessKeySecret, OSS_ENDPOINT, OSS_BUCTET_NAME, OSSHost,NGINX_HOST,
 )
 
 
@@ -21,20 +21,33 @@ def oss_upload(path, project_name, file_name, user_id):
     return url_string
 
 
-def oss_upload_monkey_package_picture(path, picture):
-    auth = oss2.Auth(OSSAccessKeyId, OSSAccessKeySecret)
-    bucket = oss2.Bucket(auth, OSS_ENDPOINT, OSS_BUCTET_NAME)
-
-    oss_path = f'monkey/package/{picture}'
-    actual_path = f'{path}/{picture}'
-
-    try:
-        bucket.put_object_from_file(oss_path, actual_path)
-    except oss2.exceptions:
-        return ''
-    url_string = OSSHost + '/' + oss_path
-    os.remove(actual_path)
+def nginx_upload_monkey_package_picture(picture):
+    '''
+    格式化picture在nginx服务器上的下载路径
+    :param picture: 格式化后的图片
+    :return: 格式化后的路径http://192.168.245.184:8099/images/xxxxx.png
+    '''
+    img_path = f'images/{picture}'
+    url_string = NGINX_HOST + '/' + img_path
     return url_string
+
+
+# def oss_upload_monkey_package_picture(path, picture):
+#
+#     auth = oss2.Auth(OSSAccessKeyId, OSSAccessKeySecret)
+#     bucket = oss2.Bucket(auth, OSS_ENDPOINT, OSS_BUCTET_NAME)
+#
+#     oss_path = f'images/{picture}'
+#     actual_path = f'{path}/{picture}'
+#
+#     try:
+#         bucket.put_object_from_file(oss_path, actual_path)
+#     except oss2.exceptions:
+#         return ''
+#     url_string = OSSHost + '/' + oss_path
+#     os.remove(actual_path)
+#
+#     return url_string
 
 
 def oss_download(user_id, url):
