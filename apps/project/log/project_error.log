@@ -1,0 +1,226 @@
+[2019-11-25 14:22:38,945][14912][project][tMiddleware.py 71 ERROR]: 
+request  : /v1/project/  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyNjYxNTZ9.Dlz_ZpfZOiu_6WzB32p_hRfieCIKQ06wO3QCW1pDwec
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\base.py", line 2276, in _wrap_pool_connect
+    return fn()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 363, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 760, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 492, in checkout
+    rec = pool._do_get()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\impl.py", line 139, in _do_get
+    self._dec_overflow()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\util\langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\util\compat.py", line 153, in reraise
+    raise value
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\impl.py", line 136, in _do_get
+    return self._create_connection()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 308, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 437, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 639, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\default.py", line 482, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "D:\Programs\python37\lib\site-packages\MySQLdb\__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\MySQLdb\connections.py", line 171, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (1045, "Access denied for user 'root'@'192.168.245.1' (using password: YES)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\project\views\project.py", line 162, in project_query_handler
+    data = ProjectBusiness.query_all_json()
+  File "G:\gitworkspace\TcloudServer\library\api\transfer.py", line 219, in _
+    return _slicejson(func(*args, **kwargs))
+  File "G:\gitworkspace\TcloudServer\library\api\transfer.py", line 33, in _
+    results = func(*args, **kwargs)
+  File "G:\gitworkspace\TcloudServer\apps\project\business\project.py", line 45, in query_all_json
+    desc(Project.weight)).order_by(Project.id).all()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\query.py", line 3211, in all
+    return list(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\query.py", line 3367, in __iter__
+    return self._execute_and_instances(context)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\query.py", line 3389, in _execute_and_instances
+    querycontext, self._connection_from_session, close_with_result=True
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\query.py", line 3404, in _get_bind_args
+    mapper=self._bind_mapper(), clause=querycontext.statement, **kw
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\query.py", line 3382, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\session.py", line 1124, in connection
+    execution_options=execution_options,
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\session.py", line 1130, in _connection_for_bind
+    engine, execution_options
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\session.py", line 431, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\base.py", line 2242, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\base.py", line 2280, in _wrap_pool_connect
+    e, dialect, self
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\base.py", line 1547, in _handle_dbapi_exception_noconnection
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\util\compat.py", line 398, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\util\compat.py", line 152, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\base.py", line 2276, in _wrap_pool_connect
+    return fn()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 363, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 760, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 492, in checkout
+    rec = pool._do_get()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\impl.py", line 139, in _do_get
+    self._dec_overflow()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\util\langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\util\compat.py", line 153, in reraise
+    raise value
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\impl.py", line 136, in _do_get
+    return self._create_connection()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 308, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 437, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 639, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\default.py", line 482, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "D:\Programs\python37\lib\site-packages\MySQLdb\__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\MySQLdb\connections.py", line 171, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+sqlalchemy.exc.OperationalError: (MySQLdb._exceptions.OperationalError) (1045, "Access denied for user 'root'@'192.168.245.1' (using password: YES)")
+(Background on this error at: http://sqlalche.me/e/e3q8)
+
+[2019-11-25 14:22:41,898][14912][project][tMiddleware.py 71 ERROR]: 
+request  : /v1/project/  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyNjYxNTZ9.Dlz_ZpfZOiu_6WzB32p_hRfieCIKQ06wO3QCW1pDwec
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\base.py", line 2276, in _wrap_pool_connect
+    return fn()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 363, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 760, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 492, in checkout
+    rec = pool._do_get()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\impl.py", line 139, in _do_get
+    self._dec_overflow()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\util\langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\util\compat.py", line 153, in reraise
+    raise value
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\impl.py", line 136, in _do_get
+    return self._create_connection()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 308, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 437, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 639, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\default.py", line 482, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "D:\Programs\python37\lib\site-packages\MySQLdb\__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\MySQLdb\connections.py", line 171, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (1045, "Access denied for user 'root'@'192.168.245.1' (using password: YES)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\project\views\project.py", line 162, in project_query_handler
+    data = ProjectBusiness.query_all_json()
+  File "G:\gitworkspace\TcloudServer\library\api\transfer.py", line 219, in _
+    return _slicejson(func(*args, **kwargs))
+  File "G:\gitworkspace\TcloudServer\library\api\transfer.py", line 33, in _
+    results = func(*args, **kwargs)
+  File "G:\gitworkspace\TcloudServer\apps\project\business\project.py", line 45, in query_all_json
+    desc(Project.weight)).order_by(Project.id).all()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\query.py", line 3211, in all
+    return list(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\query.py", line 3367, in __iter__
+    return self._execute_and_instances(context)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\query.py", line 3389, in _execute_and_instances
+    querycontext, self._connection_from_session, close_with_result=True
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\query.py", line 3404, in _get_bind_args
+    mapper=self._bind_mapper(), clause=querycontext.statement, **kw
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\query.py", line 3382, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\session.py", line 1124, in connection
+    execution_options=execution_options,
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\session.py", line 1130, in _connection_for_bind
+    engine, execution_options
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\orm\session.py", line 431, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\base.py", line 2242, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\base.py", line 2280, in _wrap_pool_connect
+    e, dialect, self
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\base.py", line 1547, in _handle_dbapi_exception_noconnection
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\util\compat.py", line 398, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\util\compat.py", line 152, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\base.py", line 2276, in _wrap_pool_connect
+    return fn()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 363, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 760, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 492, in checkout
+    rec = pool._do_get()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\impl.py", line 139, in _do_get
+    self._dec_overflow()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\util\langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\util\compat.py", line 153, in reraise
+    raise value
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\impl.py", line 136, in _do_get
+    return self._create_connection()
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 308, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 437, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\pool\base.py", line 639, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Programs\python37\lib\site-packages\sqlalchemy\engine\default.py", line 482, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "D:\Programs\python37\lib\site-packages\MySQLdb\__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\MySQLdb\connections.py", line 171, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+sqlalchemy.exc.OperationalError: (MySQLdb._exceptions.OperationalError) (1045, "Access denied for user 'root'@'192.168.245.1' (using password: YES)")
+(Background on this error at: http://sqlalche.me/e/e3q8)
+

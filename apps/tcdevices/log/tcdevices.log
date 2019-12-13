@@ -1,0 +1,1995 @@
+[2019-11-22 13:24:58,475][23492][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 13:25:01,651][23492][tcdevices][tcDevices.py 189 INFO]: {"URL": "", "headers": {"Authorization": ""}}
+[2019-11-22 13:31:46,556][32256][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 13:34:29,489][32256][tcdevices][tcDevices.py 189 INFO]: {"URL": "", "headers": {"Authorization": ""}}
+[2019-11-22 14:08:11,417][32256][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:08:13,314][32256][tcdevices][tcDevices.py 189 INFO]: {"URL": "", "headers": {"Authorization": ""}}
+[2019-11-22 14:16:26,291][32256][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:16:27,852][32256][tcdevices][tcDevices.py 189 INFO]: {"URL": "", "headers": {"Authorization": ""}}
+[2019-11-22 14:34:58,026][32256][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:34:59,592][32256][tcdevices][tcDevices.py 189 INFO]: {"URL": "", "headers": {"Authorization": ""}}
+[2019-11-22 14:42:21,366][35208][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:42:26,283][35208][tcdevices][tcDevices.py 189 INFO]: {"URL": "", "headers": {"Authorization": ""}}
+[2019-11-22 14:50:32,888][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:50:35,314][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "", "headers": {"Authorization": ""}}
+[2019-11-22 15:05:24,192][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:05:25,779][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "", "headers": {"Authorization": ""}}
+[2019-11-22 15:09:35,437][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:09:36,367][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "", "headers": {"Authorization": ""}}
+[2019-11-22 15:16:23,643][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:16:24,384][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "", "headers": {"Authorization": ""}}
+[2019-11-22 15:33:52,074][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:33:52,949][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "", "headers": {"Authorization": ""}}
+[2019-11-22 15:34:11,777][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:34:12,168][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "", "headers": {"Authorization": ""}}
+[2019-11-22 16:45:45,347][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:45:47,058][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 16:46:46,298][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:46:46,292][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:46:46,440][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 16:46:46,519][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 16:46:46,657][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 16:46:59,362][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:46:59,477][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:46:59,633][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 16:46:59,736][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 16:46:59,763][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 16:59:23,044][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:59:23,047][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:59:23,336][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 16:59:23,348][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 16:59:23,462][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 17:00:08,975][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:00:08,997][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:00:09,112][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:00:09,154][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:00:09,303][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 17:00:48,750][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:00:48,826][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:00:51,358][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:00:51,388][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:00:51,500][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:00:51,739][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:00:51,772][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 17:01:52,398][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:01:52,408][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:01:52,476][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:01:52,538][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 17:01:52,570][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:10:37,166][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:10:37,219][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:10:37,333][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:10:37,400][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 17:10:37,514][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:19:49,373][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:19:49,383][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:19:51,470][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:19:51,543][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:19:51,586][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 17:20:55,079][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:20:55,093][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:20:55,230][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:20:55,276][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:20:55,303][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 17:22:09,743][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:22:09,769][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:22:09,828][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:22:09,979][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 17:22:09,994][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:26:11,732][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:26:11,737][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:26:11,831][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:26:11,891][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 17:26:12,096][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:26:50,102][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:26:50,105][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:26:50,250][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:26:50,277][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:26:50,364][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 17:31:00,129][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:31:00,173][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:31:02,088][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/auth/api/skip/mock", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:31:02,395][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:31:49,421][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:31:49,432][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:31:49,542][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/auth/api/skip/mock", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:31:49,589][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:33:02,935][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:33:02,946][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:33:03,018][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:33:03,145][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:33:03,277][37172][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-22 17:40:18,377][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:40:18,391][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:40:20,531][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100"}
+[2019-11-22 17:40:20,622][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 17:40:21,000][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:40:21,347][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 18:43:00,024][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 18:43:00,042][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 18:43:02,414][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100", "stfurl": "http://192.168.245.184:7100"}
+[2019-11-22 18:43:02,420][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 18:43:02,724][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 18:43:02,916][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 18:44:16,672][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 18:44:16,718][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 18:44:16,777][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100", "stfurl": "http://192.168.245.184:7100"}
+[2019-11-22 18:44:16,990][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 18:47:02,515][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 18:47:02,519][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 18:47:04,281][37172][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100", "stfurl": "http://192.168.245.184:7100"}
+[2019-11-22 18:47:04,623][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-22 18:47:05,194][37172][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 18:47:05,345][37172][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer 42bb8b156c6c48989989f1cf29ea3f1f2fd5e7bf2105426aa280e9dc1e15a7d9"}}
+[2019-11-25 13:31:08,614][12536][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 13:31:08,626][12536][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 13:31:09,337][12536][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 13:31:09,365][12536][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 13:31:09,569][12536][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-25 14:39:09,845][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:39:09,861][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:39:10,388][16316][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:39:10,397][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:39:12,693][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:39:12,801][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:39:15,691][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:39:15,817][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:39:18,688][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:39:18,774][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:39:21,693][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:39:21,819][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:39:33,318][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:39:33,363][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:39:33,382][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:39:33,471][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:39:33,549][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:39:34,146][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:52:48,199][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:52:48,215][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:52:48,375][16316][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:52:48,739][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:52:51,535][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:52:51,601][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:52:54,539][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:52:54,642][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:52:56,785][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:52:56,861][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:52:59,801][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:52:59,897][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:53:16,657][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:53:16,741][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:53:18,826][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:53:18,830][16316][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:53:19,373][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:53:19,504][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:53:24,376][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:53:24,666][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:53:25,450][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:53:25,696][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:53:28,369][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:53:28,482][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:53:39,930][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:53:39,978][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:53:40,210][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:53:40,269][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:53:40,369][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:53:40,713][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.184:7100/api/v1/devices", "headers": {"Authorization": "Bearer f38a5433bb684775a13d245b15334aa1d269ae33831f46f49da316b8a63e9231"}}
+[2019-11-25 14:56:35,888][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:56:35,903][16316][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:56:38,070][16316][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 14:56:38,179][16316][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 14:56:38,243][16316][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-25 14:56:38,400][16316][tcdevices][tcDevices.py 153 INFO]: 设备manufacturer找不到：(no serial number)
+[2019-11-25 15:02:30,198][13356][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:02:30,235][13356][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:02:33,369][13356][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:02:33,468][13356][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-25 15:03:05,023][13356][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:03:05,052][13356][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:03:05,234][13356][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:03:05,306][13356][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:03:05,532][13356][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-25 15:05:16,785][13356][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:05:16,808][13356][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:05:18,861][13356][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:05:18,989][13356][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-25 15:05:19,020][13356][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:05:19,600][13356][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:05:19,818][13356][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:17:47,130][17916][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:17:47,141][17916][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:17:48,574][17916][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:17:48,587][17916][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:17:48,671][17916][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-25 15:19:25,030][17916][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:19:25,032][17916][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:19:26,420][17916][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:19:26,463][17916][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-25 15:19:27,839][17916][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:19:30,837][17916][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:19:33,839][17916][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:19:36,841][17916][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:19:39,839][17916][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:34:29,777][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:34:29,792][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:34:31,341][14348][tcdevices][tcDevices.py 202 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:34:31,466][14348][tcdevices][tcDevices.py 206 INFO]: {"success": false, "description": "Requires Authentication"}
+[2019-11-25 15:34:32,570][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:34:35,575][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:34:38,575][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:34:41,568][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:34:44,568][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,055][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,089][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,115][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,148][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,194][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,221][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,243][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,266][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,297][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,328][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,364][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,390][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,410][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,431][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:35:31,452][14348][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/getdevices  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:36:39,088][14348][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:36:43,698][14348][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:36:45,914][14348][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:42:49,156][14348][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:44:40,750][14348][tcdevices][tcDevices.py 189 INFO]: {"URL": "http://192.168.245.173:7100/api/v1/devices", "headers": {"Authorization": "Bearer da94f8b0a0824bf6834a2c31b6a5add2c1735e4035594c6587219c03a33e5a31"}}
+[2019-11-25 15:49:12,522][12712][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:50:41,228][12712][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:51:23,198][12712][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:57:15,392][19748][tcdevices][tMiddleware.py 69 WARNING]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+

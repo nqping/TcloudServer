@@ -142,7 +142,7 @@ def get_tcdevices_handler():
                 "sdk":"23",
                 "serial":"2fba959b7d74",
                 "status":3,
-                "statusChangedAt":"2019-07-02T04:47:58.895Z",
+                "statusChangedAt":"2019-07-02T04:47:58.895Z",gettoken
                 "times":0,
                 "usage":null,
                 "usageChangedAt":"2019-07-05T06:54:52.613Z",
@@ -154,6 +154,7 @@ def get_tcdevices_handler():
         "message":"ok"
     }    """
     data = TcDevicesBusiness.get_devices()
+    print('-------',data)
     return json_detail_render(0, data)
 
 
@@ -162,7 +163,7 @@ def get_token_handler():
     """
     @api {get} /v1/tcdevices/gettoken 获取token
     @apiName GetToken
-    @apiGroup 云真机
+    @apiGroup 云真机getdevices
     @apiDescription 获取token
     @apiParam {string} name 名字
     @apiParamExample {json} Request-Example:

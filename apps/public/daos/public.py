@@ -22,7 +22,7 @@ from library.trpc import Trpc
 user_trpc = Trpc('auth')
 
 expire_time = 30
-upload_dir = 'static/'
+upload_dir = '/static/packages/'
 
 
 def get_config(module, module_type, is_all, project_id=None):

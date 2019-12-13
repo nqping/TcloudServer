@@ -56,6 +56,7 @@ class EntityModel(db.Model):
 
     @classmethod
     def gets(cls, ids):
+        print('***',cls.query.filter(cls.id.in_(ids)).all())
         return cls.query.filter(cls.id.in_(ids)).all()
 
 

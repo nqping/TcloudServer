@@ -1,0 +1,1389 @@
+[2019-11-21 16:05:11,467][17812][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-21 16:05:11,494][17812][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-21 16:05:11,495][17812][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-21 16:05:11,544][17812][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-21 16:05:12,756][17812][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-21 16:08:47,099][17812][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-21 16:08:47,114][17812][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-21 16:08:47,138][17812][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 13:24:42,014][30504][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 13:24:42,027][30504][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 13:24:42,272][30504][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:08:08,506][30504][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:08:10,029][30504][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 14:08:11,275][30504][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:16:22,928][30504][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:16:25,109][30504][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 14:16:26,305][30504][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:34:52,316][30504][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:34:56,134][30504][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 14:34:57,951][30504][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:50:29,346][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 14:50:31,880][36232][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 14:50:32,674][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:05:06,298][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:05:08,223][36232][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 15:05:24,190][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:07:12,368][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:07:14,977][36232][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 15:09:35,442][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:16:20,591][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:16:22,017][36232][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 15:16:23,504][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:33:48,795][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:33:50,551][36232][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 15:33:52,045][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:34:09,190][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:34:09,242][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 15:34:09,279][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:44:34,508][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:44:44,894][36232][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 16:45:44,591][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:47:23,708][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:47:23,772][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:47:23,801][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:47:23,892][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:47:24,087][36232][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 16:49:43,342][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:49:43,354][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:58:48,573][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:58:48,597][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:58:48,601][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:58:48,683][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 16:58:49,158][36232][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 17:00:07,969][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:00:08,030][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:00:48,627][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:00:48,792][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:00:51,454][36232][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 17:10:36,540][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:10:36,602][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:19:49,350][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:19:49,372][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:19:51,572][36232][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 17:20:49,775][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:20:49,804][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:20:49,815][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:26:10,402][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:26:10,417][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:26:45,135][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:26:45,146][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:31:00,126][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:31:00,163][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:31:02,206][36232][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 17:31:47,424][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:31:47,517][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:32:57,266][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:32:57,311][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:32:57,314][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:40:18,320][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:40:18,353][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 17:40:20,665][36232][auth][users.py 725 INFO]: [{'userid': 1152, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}, {'id': 3, 'name': 'test', 'comment': '测试'}]}]
+[2019-11-22 18:43:00,020][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 18:43:00,051][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 18:43:02,435][36232][auth][users.py 725 INFO]: []
+[2019-11-22 18:47:02,492][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1152  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 18:47:02,494][36232][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1152'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-22 18:47:04,385][36232][auth][users.py 725 INFO]: []
+[2019-11-25 13:30:41,069][14620][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 13:30:41,099][14620][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 13:30:41,122][14620][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:17:51,301][13236][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:17:51,307][13236][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:17:51,322][13236][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:17:51,433][13236][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:17:52,619][13236][auth][users.py 725 INFO]: [{'userid': 1, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}]}]
+[2019-11-25 14:38:52,267][16260][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:38:52,286][16260][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:38:52,331][16260][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:53:16,669][16260][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:53:16,703][16260][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:53:18,850][16260][auth][users.py 725 INFO]: [{'userid': 1, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}]}]
+[2019-11-25 14:56:35,874][16260][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:56:35,897][16260][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 14:56:38,204][16260][auth][users.py 725 INFO]: [{'userid': 1, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}]}]
+[2019-11-25 15:02:30,151][17600][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:02:30,173][17600][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:02:33,209][17600][auth][users.py 725 INFO]: [{'userid': 1, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}]}]
+[2019-11-25 15:02:54,375][17600][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:02:54,396][17600][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:02:54,443][17600][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:02:54,521][17600][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:02:54,827][17600][auth][users.py 725 INFO]: [{'userid': 1, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}]}]
+[2019-11-25 15:05:16,772][17600][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/gain/roles_projects  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {'user_id': '1'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:05:16,798][17600][auth][tMiddleware.py 69 WARNING]: 
+request  : /v1/user/1  OPTIONS [handler: 0]
+token    : notoken
+projectid: noprojectid
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 2241, in preprocess_request
+    rv = func()
+  File "G:\gitworkspace\TcloudServer\library\api\tMiddleware.py", line 111, in handle_before
+    raise NotLoginException
+library.api.exceptions.NotLoginException: not login
+
+[2019-11-25 15:05:18,948][17600][auth][users.py 725 INFO]: [{'userid': 1, 'username': 'admin', 'nickname': 'admin', 'picture': '', 'userweight': 1, 'role': [{'id': 1, 'name': 'admin', 'comment': '超级管理员'}]}]

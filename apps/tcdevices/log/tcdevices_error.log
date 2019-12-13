@@ -1,0 +1,2775 @@
+[2019-11-22 13:25:01,730][23492][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDMzODgxfQ.QRpqtIUc1lcf7boYzrm8XadcMs-APbWJTyX98VMSxTY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+[2019-11-22 13:34:31,946][32256][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDMzODgxfQ.QRpqtIUc1lcf7boYzrm8XadcMs-APbWJTyX98VMSxTY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+[2019-11-22 14:08:13,324][32256][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDMzODgxfQ.QRpqtIUc1lcf7boYzrm8XadcMs-APbWJTyX98VMSxTY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+[2019-11-22 14:16:27,857][32256][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDMzODgxfQ.QRpqtIUc1lcf7boYzrm8XadcMs-APbWJTyX98VMSxTY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+[2019-11-22 14:34:59,599][32256][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDMzODgxfQ.QRpqtIUc1lcf7boYzrm8XadcMs-APbWJTyX98VMSxTY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+[2019-11-22 14:42:26,322][35208][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDMzODgxfQ.QRpqtIUc1lcf7boYzrm8XadcMs-APbWJTyX98VMSxTY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+[2019-11-22 14:50:35,337][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDMzODgxfQ.QRpqtIUc1lcf7boYzrm8XadcMs-APbWJTyX98VMSxTY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+[2019-11-22 15:05:25,784][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDMzODgxfQ.QRpqtIUc1lcf7boYzrm8XadcMs-APbWJTyX98VMSxTY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+[2019-11-22 15:09:36,373][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDMzODgxfQ.QRpqtIUc1lcf7boYzrm8XadcMs-APbWJTyX98VMSxTY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+[2019-11-22 15:16:24,389][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDMzODgxfQ.QRpqtIUc1lcf7boYzrm8XadcMs-APbWJTyX98VMSxTY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+[2019-11-22 15:33:52,954][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDMzODgxfQ.QRpqtIUc1lcf7boYzrm8XadcMs-APbWJTyX98VMSxTY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+[2019-11-22 15:34:12,172][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQxNjQ3fQ.tAFuzTB-HuzpeE7KZvbgddc_JCL8RXP1d08tfhoOmnY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Programs\python37\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '': No schema supplied. Perhaps you meant http://?
+
+[2019-11-22 16:45:47,606][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQxNjQ3fQ.tAFuzTB-HuzpeE7KZvbgddc_JCL8RXP1d08tfhoOmnY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 16:46:46,869][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQxNjQ3fQ.tAFuzTB-HuzpeE7KZvbgddc_JCL8RXP1d08tfhoOmnY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 16:47:00,194][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQxNjQ3fQ.tAFuzTB-HuzpeE7KZvbgddc_JCL8RXP1d08tfhoOmnY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 16:59:23,576][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQxNjQ3fQ.tAFuzTB-HuzpeE7KZvbgddc_JCL8RXP1d08tfhoOmnY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:00:09,353][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQxNjQ3fQ.tAFuzTB-HuzpeE7KZvbgddc_JCL8RXP1d08tfhoOmnY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:00:52,034][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQxNjQ3fQ.tAFuzTB-HuzpeE7KZvbgddc_JCL8RXP1d08tfhoOmnY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:00:52,407][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQxNjQ3fQ.tAFuzTB-HuzpeE7KZvbgddc_JCL8RXP1d08tfhoOmnY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:01:52,777][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQxNjQ3fQ.tAFuzTB-HuzpeE7KZvbgddc_JCL8RXP1d08tfhoOmnY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:10:37,763][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQxNjQ3fQ.tAFuzTB-HuzpeE7KZvbgddc_JCL8RXP1d08tfhoOmnY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:19:51,817][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQxNjQ3fQ.tAFuzTB-HuzpeE7KZvbgddc_JCL8RXP1d08tfhoOmnY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:20:55,673][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4MDQ4fQ.p3S9fqOaI2ZwxGMwmNMH1RjiQkQMOLXNT9TU_TiyAYY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:22:10,219][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4MDQ4fQ.p3S9fqOaI2ZwxGMwmNMH1RjiQkQMOLXNT9TU_TiyAYY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:26:12,308][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4MDQ4fQ.p3S9fqOaI2ZwxGMwmNMH1RjiQkQMOLXNT9TU_TiyAYY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:26:50,482][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4MDQ4fQ.p3S9fqOaI2ZwxGMwmNMH1RjiQkQMOLXNT9TU_TiyAYY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:31:02,286][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4MDQ4fQ.p3S9fqOaI2ZwxGMwmNMH1RjiQkQMOLXNT9TU_TiyAYY
+projectid: 
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 182, in get_token_handler
+    data = TcDevicesBusiness.stf_token()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 205, in stf_token
+    ret = json.loads(ret.content)
+  File "D:\Programs\python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Programs\python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Programs\python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+[2019-11-22 17:31:02,695][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4MDQ4fQ.p3S9fqOaI2ZwxGMwmNMH1RjiQkQMOLXNT9TU_TiyAYY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:31:49,689][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4MDQ4fQ.p3S9fqOaI2ZwxGMwmNMH1RjiQkQMOLXNT9TU_TiyAYY
+projectid: 
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 182, in get_token_handler
+    data = TcDevicesBusiness.stf_token()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 205, in stf_token
+    ret = json.loads(ret.content)
+  File "D:\Programs\python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Programs\python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Programs\python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+[2019-11-22 17:31:49,750][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4MDQ4fQ.p3S9fqOaI2ZwxGMwmNMH1RjiQkQMOLXNT9TU_TiyAYY
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:33:03,393][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4Nzc2fQ.wSoyf4P-kabH5wPEN41VbGyVPd-dtKRlOmN2WYnU-zc
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:40:21,031][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4Nzc2fQ.wSoyf4P-kabH5wPEN41VbGyVPd-dtKRlOmN2WYnU-zc
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 17:40:21,524][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4Nzc2fQ.wSoyf4P-kabH5wPEN41VbGyVPd-dtKRlOmN2WYnU-zc
+projectid: 
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 182, in get_token_handler
+    data = TcDevicesBusiness.stf_token()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 205, in stf_token
+    ret = json.loads(ret.content)
+  File "D:\Programs\python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Programs\python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Programs\python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+[2019-11-22 17:40:21,586][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4Nzc2fQ.wSoyf4P-kabH5wPEN41VbGyVPd-dtKRlOmN2WYnU-zc
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 18:43:02,995][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4Nzc2fQ.wSoyf4P-kabH5wPEN41VbGyVPd-dtKRlOmN2WYnU-zc
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 18:43:03,589][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4Nzc2fQ.wSoyf4P-kabH5wPEN41VbGyVPd-dtKRlOmN2WYnU-zc
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 18:43:04,835][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4Nzc2fQ.wSoyf4P-kabH5wPEN41VbGyVPd-dtKRlOmN2WYnU-zc
+projectid: 
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 182, in get_token_handler
+    data = TcDevicesBusiness.stf_token()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 205, in stf_token
+    ret = json.loads(ret.content)
+  File "D:\Programs\python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Programs\python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Programs\python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+[2019-11-22 18:44:17,305][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4Nzc2fQ.wSoyf4P-kabH5wPEN41VbGyVPd-dtKRlOmN2WYnU-zc
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 18:44:17,313][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4Nzc2fQ.wSoyf4P-kabH5wPEN41VbGyVPd-dtKRlOmN2WYnU-zc
+projectid: 
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 182, in get_token_handler
+    data = TcDevicesBusiness.stf_token()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 205, in stf_token
+    ret = json.loads(ret.content)
+  File "D:\Programs\python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Programs\python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Programs\python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+[2019-11-22 18:47:05,052][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4Nzc2fQ.wSoyf4P-kabH5wPEN41VbGyVPd-dtKRlOmN2WYnU-zc
+projectid: 
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 182, in get_token_handler
+    data = TcDevicesBusiness.stf_token()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 205, in stf_token
+    ret = json.loads(ret.content)
+  File "D:\Programs\python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Programs\python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Programs\python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+[2019-11-22 18:47:05,305][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4Nzc2fQ.wSoyf4P-kabH5wPEN41VbGyVPd-dtKRlOmN2WYnU-zc
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-22 18:47:05,602][37172][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1152]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjExNTIsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In0seyJpZCI6MywibmFtZSI6InRlc3QiLCJjb21tZW50IjoiXHU2ZDRiXHU4YmQ1In1dLCJwcm9qZWN0aWQiOlsyXSwiZXhwIjoxNTc1MDQ4Nzc2fQ.wSoyf4P-kabH5wPEN41VbGyVPd-dtKRlOmN2WYnU-zc
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-25 13:31:09,832][12536][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTM0Mzl9.UllK_O4XtPnGqSvEnvMaN2gMOuLhVqUixRO8sGyIdP0
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-25 14:39:31,560][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000005052518>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices?name=admin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005052518>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 182, in get_token_handler
+    data = TcDevicesBusiness.stf_token()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 204, in stf_token
+    ret = requests.get(url)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices?name=admin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005052518>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:39:31,564][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000005052208>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005052208>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005052208>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:39:33,882][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000005091240>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005091240>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005091240>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:39:36,841][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000000050A4A58>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000050A4A58>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000050A4A58>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:39:39,811][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000000074DF400>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074DF400>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074DF400>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:39:42,864][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000000074EFCC0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074EFCC0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074EFCC0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:39:54,550][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000783FC50>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000783FC50>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000783FC50>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:39:54,590][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000784E470>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000784E470>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000784E470>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:39:55,183][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000005091128>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005091128>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005091128>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:53:09,438][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000007864240>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices?name=admin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000007864240>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 182, in get_token_handler
+    data = TcDevicesBusiness.stf_token()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 204, in stf_token
+    ret = requests.get(url)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices?name=admin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000007864240>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:53:09,769][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000000074EF940>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074EF940>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074EF940>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:53:12,674][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000000074DF080>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074DF080>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074DF080>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:53:15,670][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000005091240>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005091240>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005091240>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:53:17,979][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000007864898>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000007864898>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000007864898>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:53:21,034][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000005033A90>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005033A90>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005033A90>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:53:39,878][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000000074DF2B0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074DF2B0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074DF2B0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:53:39,936][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/gettoken  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {'name': 'admin'}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000000074DF3C8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices?name=admin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074DF3C8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 182, in get_token_handler
+    data = TcDevicesBusiness.stf_token()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 204, in stf_token
+    ret = requests.get(url)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices?name=admin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074DF3C8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:53:40,618][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000000074EF978>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074EF978>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000074EF978>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:53:45,734][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000005033A90>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005033A90>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005033A90>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:53:46,727][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000005091B00>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005091B00>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000005091B00>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:53:49,514][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000000078750F0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000078750F0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000078750F0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:54:01,320][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000787D160>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000787D160>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000787D160>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:54:01,399][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000787DB70>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000787DB70>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000787DB70>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:54:01,857][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Programs\python37\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Programs\python37\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\Programs\python37\lib\http\client.py", line 956, in send
+    self.connect()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "D:\Programs\python37\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000789B2B0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Programs\python37\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Programs\python37\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000789B2B0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 156, in get_tcdevices_handler
+    data = TcDevicesBusiness.get_devices()
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 137, in get_devices
+    devices_info = cls.stf_devices(stf_devices)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\business\tcDevices.py", line 192, in stf_devices
+    ret = requests.get(url, headers=headers)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Programs\python37\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.245.184', port=7100): Max retries exceeded with url: /api/v1/devices (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000789B2B0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+[2019-11-25 14:56:38,503][16316][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-25 15:03:05,645][13356][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-25 15:05:19,672][13356][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-25 15:05:20,002][13356][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-25 15:17:48,759][17916][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-25 15:44:30,292][14348][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-25 15:44:33,191][14348][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+
+[2019-11-25 15:44:49,418][14348][tcdevices][tMiddleware.py 71 ERROR]: 
+request  : /v1/tcdevices/getdevices  GET [handler: 1]
+token    : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJuaWNrbmFtZSI6ImFkbWluIiwicGljdHVyZSI6IiIsInVzZXJ3ZWlnaHQiOjEsInJvbGUiOlt7ImlkIjoxLCJuYW1lIjoiYWRtaW4iLCJjb21tZW50IjoiXHU4ZDg1XHU3ZWE3XHU3YmExXHU3NDA2XHU1NDU4In1dLCJwcm9qZWN0aWQiOltdLCJleHAiOjE1NzUyOTc1MzF9.ljohjsP5uSLFF2j_FDpKxHFOw4k1AledqNtVHXD2kwI
+projectid: 
+query    : {}
+
+Traceback (most recent call last):
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Programs\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "G:\gitworkspace\TcloudServer\apps\tcdevices\views\tcDevices.py", line 157, in get_tcdevices_handler
+    print('-------'+data)
+TypeError: can only concatenate str (not "list") to str
+

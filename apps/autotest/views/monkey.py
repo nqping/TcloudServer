@@ -423,6 +423,8 @@ def monkey_device_status_update_handler(id):
     return response
 
 
+
+
 # 获取上传的 apk 可以根据 id，user_id 分别获取
 @monkey.route('/package', methods=['GET'])
 def monkey_package_index_handler():
@@ -477,6 +479,7 @@ def monkey_package_index_handler():
         data = MonkeyPackageBusiness.query_json_by_id(id)
         return json_detail_render(0, data)
     all, count = MonkeyPackageBusiness.get_monkey_packages_by_user_id(user_id, page_size, page_index, test_type)
+
     response = dict(
         code=0,
         data=all,
@@ -485,6 +488,21 @@ def monkey_package_index_handler():
         total=count
     )
     return response
+
+@monkey.route('/upload',methods=['POST'])
+def monkey_pakcage_upload_nginx():
+    print("upload_nginx=======")
+
+    file = request.files.get('file')
+    fileName = request.form.get('key')
+    print('-----'+fileName)
+    file.save(fileName)
+    response = dict(
+        code='0',
+        message='upload success!'
+    )
+    return response
+
 
 
 # 上传 apk
@@ -515,7 +533,6 @@ def monkey_package_create_handler():
     (name, package_name, oss_url, picture, version, default_activity,
      user_id, test_type) = parse_json_form('monkey_package_create')
     apk_info = tool_trpc.requests('post', '/tool/apk/analysis', body={"apk_download_url": oss_url})
-
     package_name = apk_info.get('package_name')
     default_activity = apk_info.get('default_activity')
     version = apk_info.get('version_name')

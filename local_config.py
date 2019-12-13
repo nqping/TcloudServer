@@ -4,7 +4,7 @@ TCLOUD_ENV = 'dev'
 SERVER_ENV = 'dev'
 
 # SQL 连接字符串
-SQLALCHEMY_DATABASE_URI = 'mysql://<username>:<password>@<host>:<port>/<db>?charset=utf8'
+SQLALCHEMY_DATABASE_URI = 'mysql://root:123456@127.0.0.1:3306/demo?charset=utf8'
 
 # 密钥相关
 SECRET = '####'
@@ -29,12 +29,20 @@ REDIS_PASSWORD = ''
 REDIS_DB = 0
 
 # OSS 配置
-OSSAccessKeyId = 'osskey'
-OSSAccessKeySecret = 'osskeysecret'
-OSS_ENDPOINT = 'http://oss.test.com'
-OSS_BUCTET_NAME = 'oss-name'
-OSSHost = 'http://tcloud.test.com'
-CMSHost = 'http://tcloud.test.com'
+# OSSAccessKeyId = 'LTAI4FncsuXKC7Y63nGpBPk2'
+# OSSAccessKeySecret = 'JGuLllkRfdKdpA1GMc4sFop5XPw5Rl2'
+# OSS_ENDPOINT = 'http://oss-cn-shenzhen.aliyuncs.com'
+# OSS_BUCTET_NAME = 'nqp-tcloud'
+# OSSHost = 'http://nqp-tcloud.oss-cn-shenzhen.aliyuncs.com'
+# CMSHost = 'http://nqp-tcloud.oss-cn-shenzhen.aliyuncs.com'
+
+OSSAccessKeyId = 'LTAI4FncsuXKC7Y63nGpBPk2'
+OSSAccessKeySecret = 'JGuLllkRfdKdpA1GMc4sFop5XPw5Rl2'
+OSS_ENDPOINT = 'http://192.168.245.184:8085'
+OSS_BUCTET_NAME = 'nqp-tcloud'
+OSSHost = 'http://192.168.245.184:8085/v1/monkey/upload'
+CMSHost = 'http://192.168.245.184:8099'
+NGINX_HOST = 'http://192.168.245.184:8099'
 
 # 测试环境数据上报
 CID = ""
@@ -43,14 +51,14 @@ RAND = ""
 LOG_REPORT_URL = ""
 
 # jenkins 配置
-CI_AUTO_MAN_JENKINS_URL = 'http://jenkins_url.com'
+CI_AUTO_MAN_JENKINS_URL = 'http://10.128.208.58:8080'
 CI_AUTO_MAN_JENKINS_AUTH = {
-    "username": "username",
-    "password": "password"
+    "username": "qingping.niu",
+    "password": "123456"
 }
-CI_AUTO_MAN_JENKINS_MONKEY_JOB = 'monkey'
-CI_REPORT_FILE_ADRESS = "http://oss_ci_report_url"
-CI_JOB_ADDRESS = "http://jenkins_url.com/job"
+CI_AUTO_MAN_JENKINS_MONKEY_JOB = 'monkey_autotest'
+CI_REPORT_FILE_ADRESS = "http://192.168.245.184:8099/static/report"
+CI_JOB_ADDRESS = f"{CI_AUTO_MAN_JENKINS_URL}/job"
 
 # jira 配置
 JIRA_URL = 'http://jira_url'

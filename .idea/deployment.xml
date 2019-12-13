@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="nqp@192.168.245.184:22" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="TcloudServer">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/nqp/workspace/TcloudServer" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="monkey_tcloud">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/monkey_tcloud" local="$PROJECT_DIR$/../monkey_tcloud" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="nqp@192.168.245.184:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_841" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

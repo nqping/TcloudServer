@@ -165,6 +165,10 @@ BOARD_MAP = {
 
 # 临时文件夹路径
 TCLOUD_FILE_TEMP_PATH = '/tmp/tcloud'
+#nginx文件和图片存储路径
+TCLOUD_NGINX_FILE_PATH='/static/packages'
+TCLOUD_NGINX_IMG_PATH='/static/images'
+
 
 # 默认的 sft 设备图片
 TCDEVICE_PIC = 'http://picture-url.test/devices_pic/default.png'
