@@ -326,7 +326,7 @@ class MonkeyBusiness(object):
 
             jenkins_parameters = {
                 'PackageName': app_info.package_name,
-                'DeviceName': ','.join(device_serial_list),
+                'DeviceID': ','.join(device_serial_list),
                 'RunMode': type_id,
                 'RunTime': run_time,
                 'AppDownloadUrl': app_info.oss_url,
