@@ -38,10 +38,10 @@ REDIS_DB = 0
 
 OSSAccessKeyId = 'LTAI4FncsuXKC7Y63nGpBPk2'
 OSSAccessKeySecret = 'JGuLllkRfdKdpA1GMc4sFop5XPw5Rl2'
-OSS_ENDPOINT = 'http://192.168.245.184:8085'
+OSS_ENDPOINT = 'http://10.128.208.58:8085'
 OSS_BUCTET_NAME = 'nqp-tcloud'
-OSSHost = 'http://192.168.245.184:8085/v1/monkey/upload'
-CMSHost = 'http://192.168.245.184:8099'
+OSSHost = 'http://10.128.208.58:8085/v1/monkey/upload'
+CMSHost = 'http://10.128.208.58:8085'
 
 # 测试环境数据上报
 CID = ""
@@ -50,9 +50,9 @@ RAND = ""
 LOG_REPORT_URL = ""
 
 # jenkins 配置
-CI_AUTO_MAN_JENKINS_URL = 'http://10.128.208.58:8080'
+CI_AUTO_MAN_JENKINS_URL = 'http://192.168.245.184:8086'
 CI_AUTO_MAN_JENKINS_AUTH = {
-    "username": "qingping.niu",
+    "username": "admin",
     "password": "123456"
 }
 CI_AUTO_MAN_JENKINS_MONKEY_JOB = 'monkey_autotest'
